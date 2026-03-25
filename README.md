@@ -92,8 +92,14 @@ Giải thích lệnh trên:
 
 * check logs/firewall.json: Đối tượng kiểm tra là file log JSON.
 
+
 * -t json: Báo cho công cụ biết đây là cấu trúc JSON để nó phân tích sâu vào các key/value.
 
 * -b company_threats.json: Thay vì dùng file mặc định, hãy dùng dữ liệu độc quyền của công ty.
 
 * -w investigation_report.txt: Mọi kết quả tìm thấy sẽ được ghi vào file investigation_report.txt.
+
+## Video demo dự án
+https://drive.google.com/file/d/15G5ySRuLMrBwENUF3-rresjjvNU6sDIp/view?usp=sharing
+
+
