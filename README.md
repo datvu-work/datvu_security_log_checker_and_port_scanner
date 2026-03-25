@@ -12,6 +12,17 @@
 * **Lưu kết quả:** Xuất kết quả quét hoặc kiểm tra ra file text để phục vụ báo cáo.
 ---
 
+### Tech Stack
+Python 3 (Standard Libraries) vì các lý do chiến lược:
+
+* Zero Dependencies: Công cụ không yêu cầu cài đặt thư viện ngoài (pip install), giúp triển khai ngay lập tức trên các server bảo mật bị hạn chế internet.
+
+* Hiệu suất bộ nhớ (Memory Efficiency): Sử dụng Python Generators (yield) để đọc file theo từng dòng (streaming), cho phép xử lý các file log hàng chục GB mà không gây tràn RAM.
+
+* Tốc độ: Sử dụng concurrent.futures (Multithreading) để thực hiện quét cổng song song, giảm thời gian chờ đợi từ vài phút xuống vài giây.
+
+* Tính linh hoạt: Hỗ trợ đa định dạng (TXT, CSV, JSON) giúp công cụ tương thích với nhiều nguồn dữ liệu khác nhau.
+
 ## 📂 Cấu trúc dự án
 
 ```text
