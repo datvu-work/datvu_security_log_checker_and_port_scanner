@@ -1,3 +1,32 @@
-# SecTool Default Threat Intel Blacklist
-# Add one IP address per line
+# ==============================================================================
+# SecTool - Threat Intelligence Blacklist (Default)
+# Danh sách các IP độc hại: Botnet, Scanners, và Tor Exit Nodes
+# ==============================================================================
+
+# --- Nhóm 1: Botnet Command & Control (C2) ---
 185.156.74.65
+91.240.118.172
+193.142.146.234
+103.145.13.250
+45.146.164.110
+
+# --- Nhóm 2: Tor Exit Nodes (Thường dùng để ẩn danh tấn công) ---
+176.10.99.200
+162.247.74.201
+185.220.101.149
+192.42.116.16
+82.161.218.125
+
+# --- Nhóm 3: Aggressive Scanners (Chuyên quét cổng trái phép) ---
+43.131.232.112
+218.92.0.158
+122.194.229.154
+167.99.209.131
+159.203.190.242
+
+# --- Nhóm 4: Spam & Phishing Sources ---
+1.234.3.4
+114.232.136.45
+202.109.143.110
+36.110.213.114
+222.186.190.15
