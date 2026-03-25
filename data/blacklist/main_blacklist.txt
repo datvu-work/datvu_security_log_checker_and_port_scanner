@@ -1,0 +1,3 @@
+# SecTool Default Threat Intel Blacklist
+# Add one IP address per line
+185.156.74.65

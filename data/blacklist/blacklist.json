@@ -1,0 +1,17 @@
+[
+  {
+    "ip": "1.1.1.1",
+    "reason": "Brute-force attack",
+    "severity": "high"
+  },
+  {
+    "ip": "185.156.74.65",
+    "reason": "Known botnet",
+    "severity": "critical"
+  },
+  {
+    "ip": "218.92.0.158",
+    "reason": "Spam source",
+    "severity": "medium"
+  }
+]

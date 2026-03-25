@@ -1,0 +1,5 @@
+[
+  {"timestamp": "2026-03-24T10:00:01Z", "src_ip": "192.168.1.1", "action": "allow"},
+  {"timestamp": "2026-03-24T10:05:22Z", "src_ip": "1.1.1.1", "action": "block"},
+  {"timestamp": "2026-03-24T10:10:45Z", "src_ip": "185.156.74.65", "action": "identify"}
+]

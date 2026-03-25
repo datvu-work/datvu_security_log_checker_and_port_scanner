@@ -1,0 +1,15 @@
+---
+
+### 3. `requirements.txt`
+Because our entire architecture aims for "Security by Design" and maximum compatibility without third-party package risks, we are strictly relying on Python's built-in standard library (like `socket`, `argparse`, `ipaddress`, `csv`, `json`).
+
+Therefore, your `requirements.txt` is essentially empty, but it is best practice to include it so other developers know there are no external dependencies.
+
+```text
+# SecTool dependencies
+# --------------------
+# This project is built entirely using the Python 3 Standard Library.
+# It requires ZERO external dependencies to maximize security,
+# prevent supply chain attacks, and ensure it runs natively on any Linux box.
+
+# No 'pip install' is required. Just run: python src/main.py

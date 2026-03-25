@@ -1,0 +1,11 @@
+Mar 24 09:01:02 server-prod sshd[1024]: Accepted password for admin from 192.168.1.15 port 54322 ssh2
+Mar 24 09:15:45 server-prod sshd[1105]: Failed password for root from 1.1.1.1 port 22 ssh2
+Mar 24 09:15:47 server-prod sshd[1105]: Failed password for root from 1.1.1.1 port 22 ssh2
+Mar 24 09:15:50 server-prod sshd[1105]: Connection closed by authenticating user root 1.1.1.1 port 22 [preauth]
+Mar 24 10:22:11 server-prod sshd[1250]: Invalid user azureuser from 185.156.74.65 port 41231
+Mar 24 10:22:13 server-prod sshd[1250]: Failed password for invalid user azureuser from 185.156.74.65 port 41231 ssh2
+Mar 24 11:45:00 server-prod sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 24 12:01:59 server-prod sshd[1388]: Failed password for root from 218.92.0.158 port 22 ssh2
+Mar 24 12:02:05 server-prod sshd[1388]: Received disconnect from 218.92.0.158 port 22:11: Bye bye [preauth]
+Mar 24 13:10:01 server-prod CRON[1450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 14:30:22 server-prod sshd[1510]: Accepted publickey for dev_user from 192.168.1.50 port 38291 ssh2
